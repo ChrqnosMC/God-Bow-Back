@@ -39,7 +39,7 @@ jobs:
         uses: kir-antipov/mc-publish@v3.3
         with:
           modrinth-token: ${{secrets.ACCESS_TOKEN}}
-          modrinth-id: qKCUthaY
+          modrinth-id: 5qVaqmb9
           name: God Bow Back ${{env.branch}}-${{env.tag}}
           version: ${{env.tag}}
           files: |
